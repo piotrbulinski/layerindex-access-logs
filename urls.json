@@ -1,0 +1,3032 @@
+[
+    {
+        "url": "/layerindex/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "frontpage",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/branches/",
+        "module": "layerindex.restviews.BranchViewSet",
+        "name": "branch-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/branches\\.<format>/",
+        "module": "layerindex.restviews.BranchViewSet",
+        "name": "branch-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/branches/<pk>/",
+        "module": "layerindex.restviews.BranchViewSet",
+        "name": "branch-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/branches/<pk>\\.<format>/",
+        "module": "layerindex.restviews.BranchViewSet",
+        "name": "branch-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerItems/",
+        "module": "layerindex.restviews.LayerItemViewSet",
+        "name": "layeritem-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerItems\\.<format>/",
+        "module": "layerindex.restviews.LayerItemViewSet",
+        "name": "layeritem-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerItems/<pk>/",
+        "module": "layerindex.restviews.LayerItemViewSet",
+        "name": "layeritem-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerItems/<pk>\\.<format>/",
+        "module": "layerindex.restviews.LayerItemViewSet",
+        "name": "layeritem-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerBranches/",
+        "module": "layerindex.restviews.LayerBranchViewSet",
+        "name": "layerbranch-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerBranches\\.<format>/",
+        "module": "layerindex.restviews.LayerBranchViewSet",
+        "name": "layerbranch-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerBranches/<pk>/",
+        "module": "layerindex.restviews.LayerBranchViewSet",
+        "name": "layerbranch-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerBranches/<pk>\\.<format>/",
+        "module": "layerindex.restviews.LayerBranchViewSet",
+        "name": "layerbranch-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerDependencies/",
+        "module": "layerindex.restviews.LayerDependencyViewSet",
+        "name": "layerdependency-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerDependencies\\.<format>/",
+        "module": "layerindex.restviews.LayerDependencyViewSet",
+        "name": "layerdependency-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerDependencies/<pk>/",
+        "module": "layerindex.restviews.LayerDependencyViewSet",
+        "name": "layerdependency-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerDependencies/<pk>\\.<format>/",
+        "module": "layerindex.restviews.LayerDependencyViewSet",
+        "name": "layerdependency-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerMaintainers/",
+        "module": "layerindex.restviews.LayerMaintainerViewSet",
+        "name": "layermaintainer-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerMaintainers\\.<format>/",
+        "module": "layerindex.restviews.LayerMaintainerViewSet",
+        "name": "layermaintainer-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerMaintainers/<pk>/",
+        "module": "layerindex.restviews.LayerMaintainerViewSet",
+        "name": "layermaintainer-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerMaintainers/<pk>\\.<format>/",
+        "module": "layerindex.restviews.LayerMaintainerViewSet",
+        "name": "layermaintainer-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerNotes/",
+        "module": "layerindex.restviews.LayerNoteViewSet",
+        "name": "layernote-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerNotes\\.<format>/",
+        "module": "layerindex.restviews.LayerNoteViewSet",
+        "name": "layernote-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerNotes/<pk>/",
+        "module": "layerindex.restviews.LayerNoteViewSet",
+        "name": "layernote-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layerNotes/<pk>\\.<format>/",
+        "module": "layerindex.restviews.LayerNoteViewSet",
+        "name": "layernote-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/recipes/",
+        "module": "layerindex.restviews.RecipeViewSet",
+        "name": "recipe-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/recipes\\.<format>/",
+        "module": "layerindex.restviews.RecipeViewSet",
+        "name": "recipe-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/recipes/<pk>/",
+        "module": "layerindex.restviews.RecipeViewSet",
+        "name": "recipe-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/recipes/<pk>\\.<format>/",
+        "module": "layerindex.restviews.RecipeViewSet",
+        "name": "recipe-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/recipesExtended/",
+        "module": "layerindex.restviews.RecipeExtendedViewSet",
+        "name": "recipesExtended-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/recipesExtended\\.<format>/",
+        "module": "layerindex.restviews.RecipeExtendedViewSet",
+        "name": "recipesExtended-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/recipesExtended/<pk>/",
+        "module": "layerindex.restviews.RecipeExtendedViewSet",
+        "name": "recipesExtended-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/recipesExtended/<pk>\\.<format>/",
+        "module": "layerindex.restviews.RecipeExtendedViewSet",
+        "name": "recipesExtended-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/machines/",
+        "module": "layerindex.restviews.MachineViewSet",
+        "name": "machine-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/machines\\.<format>/",
+        "module": "layerindex.restviews.MachineViewSet",
+        "name": "machine-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/machines/<pk>/",
+        "module": "layerindex.restviews.MachineViewSet",
+        "name": "machine-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/machines/<pk>\\.<format>/",
+        "module": "layerindex.restviews.MachineViewSet",
+        "name": "machine-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/distros/",
+        "module": "layerindex.restviews.DistroViewSet",
+        "name": "distro-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/distros\\.<format>/",
+        "module": "layerindex.restviews.DistroViewSet",
+        "name": "distro-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/distros/<pk>/",
+        "module": "layerindex.restviews.DistroViewSet",
+        "name": "distro-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/distros/<pk>\\.<format>/",
+        "module": "layerindex.restviews.DistroViewSet",
+        "name": "distro-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/classes/",
+        "module": "layerindex.restviews.ClassViewSet",
+        "name": "bbclass-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/classes\\.<format>/",
+        "module": "layerindex.restviews.ClassViewSet",
+        "name": "bbclass-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/classes/<pk>/",
+        "module": "layerindex.restviews.ClassViewSet",
+        "name": "bbclass-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/classes/<pk>\\.<format>/",
+        "module": "layerindex.restviews.ClassViewSet",
+        "name": "bbclass-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layers/",
+        "module": "layerindex.restviews.LayerViewSet",
+        "name": "layers-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layers\\.<format>/",
+        "module": "layerindex.restviews.LayerViewSet",
+        "name": "layers-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layers/<pk>/",
+        "module": "layerindex.restviews.LayerViewSet",
+        "name": "layers-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/layers/<pk>\\.<format>/",
+        "module": "layerindex.restviews.LayerViewSet",
+        "name": "layers-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/appends/",
+        "module": "layerindex.restviews.AppendViewSet",
+        "name": "bbappend-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/appends\\.<format>/",
+        "module": "layerindex.restviews.AppendViewSet",
+        "name": "bbappend-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/appends/<pk>/",
+        "module": "layerindex.restviews.AppendViewSet",
+        "name": "bbappend-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/appends/<pk>\\.<format>/",
+        "module": "layerindex.restviews.AppendViewSet",
+        "name": "bbappend-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/incFiles/",
+        "module": "layerindex.restviews.IncFileViewSet",
+        "name": "incfile-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/incFiles\\.<format>/",
+        "module": "layerindex.restviews.IncFileViewSet",
+        "name": "incfile-list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/incFiles/<pk>/",
+        "module": "layerindex.restviews.IncFileViewSet",
+        "name": "incfile-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/incFiles/<pk>\\.<format>/",
+        "module": "layerindex.restviews.IncFileViewSet",
+        "name": "incfile-detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/",
+        "module": "rest_framework.routers.APIRootView",
+        "name": "api-root",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/api/<drf_format_suffix:format>",
+        "module": "rest_framework.routers.APIRootView",
+        "name": "api-root",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/layers/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/layer/<slug>/",
+        "module": "layerindex.views.RedirectParamsView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/recipes/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/machines/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/distros/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/classes/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/submit/",
+        "module": "layerindex.views.edit_layer_view",
+        "name": "submit_layer",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/submit/thanks/",
+        "module": "django.views.generic.base.TemplateView",
+        "name": "submit_layer_thanks",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/review/",
+        "module": "layerindex.views.LayerReviewListView",
+        "name": "layer_list_review",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/review/<slug>/",
+        "module": "layerindex.views.LayerReviewDetailView",
+        "name": "layer_review",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/layer/<slug>/addnote/",
+        "module": "layerindex.views.edit_layernote_view",
+        "name": "add_layernote",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/layer/<slug>/editnote/<pk>/",
+        "module": "layerindex.views.edit_layernote_view",
+        "name": "edit_layernote",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/layer/<slug>/deletenote/<pk>/",
+        "module": "layerindex.views.delete_layernote_view",
+        "name": "delete_layernote",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/layer/<slug>/delete/",
+        "module": "layerindex.views.delete_layer_view",
+        "name": "delete_layer",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/recipe/<pk>/",
+        "module": "layerindex.views.RecipeDetailView",
+        "name": "recipe",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/layer/<name>/publish/",
+        "module": "layerindex.views.publish_view",
+        "name": "publish",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/layerupdate/<pk>/",
+        "module": "layerindex.views.LayerUpdateDetailView",
+        "name": "layerupdate",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/bulkchange/",
+        "module": "layerindex.views.BulkChangeView",
+        "name": "bulk_change",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/bulkchange/<pk>/search/",
+        "module": "layerindex.views.BulkChangeSearchView",
+        "name": "bulk_change_search",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/bulkchange/<pk>/edit/",
+        "module": "layerindex.views.bulk_change_edit_view",
+        "name": "bulk_change_edit",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/bulkchange/<pk>/review/",
+        "module": "django.views.generic.detail.DetailView",
+        "name": "bulk_change_review",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/bulkchange/<pk>/patches/",
+        "module": "layerindex.views.bulk_change_patch_view",
+        "name": "bulk_change_patches",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/bulkchange/<pk>/delete/",
+        "module": "layerindex.views.BulkChangeDeleteView",
+        "name": "bulk_change_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/",
+        "module": "layerindex.views.RedirectParamsView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/layers/",
+        "module": "layerindex.views.LayerListView",
+        "name": "layer_list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/layer/<slug>/",
+        "module": "layerindex.views.LayerDetailView",
+        "name": "layer_item",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/layer/<slug>/recipes/csv/",
+        "module": "layerindex.views.layer_export_recipes_csv_view",
+        "name": "layer_export_recipes_csv",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/recipes/",
+        "module": "layerindex.views.RecipeSearchView",
+        "name": "recipe_search",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/machines/",
+        "module": "layerindex.views.MachineSearchView",
+        "name": "machine_search",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/distros/",
+        "module": "layerindex.views.DistroSearchView",
+        "name": "distro_search",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/classes/",
+        "module": "layerindex.views.ClassSearchView",
+        "name": "class_search",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/edit/<slug>/",
+        "module": "layerindex.views.edit_layer_view",
+        "name": "edit_layer",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/update/<slug>/",
+        "module": "layerindex.views.update_layer_view",
+        "name": "update_layer",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/duplicates/",
+        "module": "layerindex.views.DuplicatesView",
+        "name": "duplicates",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch/<branch>/comparison_update/",
+        "module": "layerindex.views.comparison_update_view",
+        "name": "comparison_update",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/updates/",
+        "module": "layerindex.views.UpdateListView",
+        "name": "update_list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/updates/<pk>/",
+        "module": "layerindex.views.UpdateDetailView",
+        "name": "update",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/history/",
+        "module": "layerindex.views.HistoryListView",
+        "name": "history_list",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/profile/",
+        "module": "layerindex.views.EditProfileFormView",
+        "name": "profile",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/about/",
+        "module": "django.views.generic.base.TemplateView",
+        "name": "about",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/stats/",
+        "module": "layerindex.views.StatsView",
+        "name": "stats",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/oe-classic/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "classic",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/oe-classic/recipes/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "classic_recipe_search",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/oe-classic/stats/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "classic_recipe_stats",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/oe-classic/recipe/<pk>/",
+        "module": "layerindex.views.ClassicRecipeDetailView",
+        "name": "classic_recipe",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/comparison/recipes/<branch>/",
+        "module": "layerindex.views.ClassicRecipeSearchView",
+        "name": "comparison_recipe_search",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/comparison/search-csv/<branch>/",
+        "module": "layerindex.views.ClassicRecipeSearchView",
+        "name": "comparison_recipe_search_csv",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/comparison/stats/<branch>/",
+        "module": "layerindex.views.ClassicRecipeStatsView",
+        "name": "comparison_recipe_stats",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/comparison/recipe/<pk>/",
+        "module": "layerindex.views.ClassicRecipeDetailView",
+        "name": "comparison_recipe",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/comparison/select/<pk>/",
+        "module": "layerindex.views.ComparisonRecipeSelectView",
+        "name": "comparison_select",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/comparison/selectdetail/<selectfor>/<pk>/",
+        "module": "layerindex.views.ComparisonRecipeSelectDetailView",
+        "name": "comparison_select_detail",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/email_test/",
+        "module": "layerindex.views.email_test_view",
+        "name": "email_test",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/task/<task_id>/",
+        "module": "layerindex.views.TaskStatusView",
+        "name": "task_status",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/tasklog/<task_id>/",
+        "module": "layerindex.views.task_log_view",
+        "name": "task_log",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/stoptask/<task_id>/",
+        "module": "layerindex.views.task_stop_view",
+        "name": "task_stop",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch_comparison/",
+        "module": "layerindex.views.BranchCompareView",
+        "name": "branch_comparison",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch_comparison_plain/",
+        "module": "layerindex.views.BranchCompareView",
+        "name": "branch_comparison_plain",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch_comparison_rst/",
+        "module": "layerindex.views.BranchCompareView",
+        "name": "branch_comparison_rst",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/branch_comparison_csv/",
+        "module": "layerindex.views.BranchCompareView",
+        "name": "branch_comparison_csv",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/recipe_deps/",
+        "module": "layerindex.views.RecipeDependenciesView",
+        "name": "recipe_deps",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/ajax/layerchecklist/<branch>/",
+        "module": "layerindex.views.LayerCheckListView",
+        "name": "layer_checklist",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/ajax/classchecklist/<branch>/",
+        "module": "layerindex.views.BBClassCheckListView",
+        "name": "class_checklist",
+        "decorators": ""
+    },
+    {
+        "url": "/layerindex/.",
+        "module": "django.views.defaults.page_not_found",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/",
+        "module": "django.contrib.admin.sites.index",
+        "name": "admin:index",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/login/",
+        "module": "django.contrib.admin.sites.login",
+        "name": "admin:login",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/logout/",
+        "module": "django.contrib.admin.sites.logout",
+        "name": "admin:logout",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/password_change/",
+        "module": "django.contrib.admin.sites.password_change",
+        "name": "admin:password_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/password_change/done/",
+        "module": "django.contrib.admin.sites.password_change_done",
+        "name": "admin:password_change_done",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/autocomplete/",
+        "module": "django.contrib.admin.sites.autocomplete_view",
+        "name": "admin:autocomplete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/jsi18n/",
+        "module": "django.contrib.admin.sites.i18n_javascript",
+        "name": "admin:jsi18n",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/r/<path:content_type_id>/<path:object_id>/",
+        "module": "django.contrib.contenttypes.views.shortcut",
+        "name": "admin:view_on_site",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintenanceplan/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_maintenanceplan_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintenanceplan/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_maintenanceplan_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintenanceplan/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_maintenanceplan_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintenanceplan/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_maintenanceplan_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintenanceplan/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_maintenanceplan_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintenanceplan/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/release/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_release_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/release/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_release_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/release/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_release_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/release/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_release_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/release/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_release_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/release/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/milestone/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_milestone_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/milestone/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_milestone_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/milestone/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_milestone_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/milestone/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_milestone_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/milestone/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_milestone_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/milestone/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintainer/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_maintainer_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintainer/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_maintainer_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintainer/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_maintainer_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintainer/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_maintainer_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintainer/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_maintainer_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/maintainer/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainerhistory/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipemaintainerhistory_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainerhistory/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipemaintainerhistory_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainerhistory/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipemaintainerhistory_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainerhistory/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipemaintainerhistory_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainerhistory/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipemaintainerhistory_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainerhistory/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainer/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipemaintainer_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainer/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipemaintainer_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainer/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipemaintainer_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainer/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipemaintainer_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainer/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipemaintainer_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintainer/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipedistro/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipedistro_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipedistro/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipedistro_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipedistro/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipedistro_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipedistro/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipedistro_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipedistro/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipedistro_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipedistro/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgrade/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipeupgrade_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgrade/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipeupgrade_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgrade/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipeupgrade_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgrade/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipeupgrade_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgrade/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipeupgrade_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgrade/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstreamhistory/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipeupstreamhistory_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstreamhistory/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipeupstreamhistory_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstreamhistory/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipeupstreamhistory_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstreamhistory/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipeupstreamhistory_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstreamhistory/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipeupstreamhistory_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstreamhistory/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstream/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipeupstream_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstream/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipeupstream_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstream/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipeupstream_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstream/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipeupstream_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstream/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipeupstream_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupstream/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintenancelink/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipemaintenancelink_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintenancelink/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipemaintenancelink_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintenancelink/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipemaintenancelink_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintenancelink/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipemaintenancelink_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintenancelink/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipemaintenancelink_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipemaintenancelink/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipesymbol/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipesymbol_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipesymbol/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipesymbol_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipesymbol/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipesymbol_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipesymbol/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipesymbol_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipesymbol/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipesymbol_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipesymbol/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegrouprule/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipeupgradegrouprule_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegrouprule/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipeupgradegrouprule_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegrouprule/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipeupgradegrouprule_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegrouprule/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipeupgradegrouprule_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegrouprule/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipeupgradegrouprule_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegrouprule/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegroup/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:rrs_recipeupgradegroup_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegroup/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:rrs_recipeupgradegroup_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegroup/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:rrs_recipeupgradegroup_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegroup/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:rrs_recipeupgradegroup_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegroup/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:rrs_recipeupgradegroup_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/rrs/recipeupgradegroup/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/group/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:auth_group_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/group/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:auth_group_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/group/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:auth_group_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/group/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:auth_group_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/group/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:auth_group_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/group/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/user/<id>/password/",
+        "module": "django.contrib.auth.admin.user_change_password",
+        "name": "admin:auth_user_password_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/user/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:auth_user_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/user/add/",
+        "module": "django.contrib.auth.admin.add_view",
+        "name": "admin:auth_user_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/user/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:auth_user_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/user/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:auth_user_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/user/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:auth_user_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/auth/user/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/sites/site/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:sites_site_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/sites/site/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:sites_site_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/sites/site/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:sites_site_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/sites/site/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:sites_site_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/sites/site/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:sites_site_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/sites/site/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/<str:object_id>/history/compare/",
+        "module": "reversion_compare.admin.compare_view",
+        "name": "admin:layerindex_branch_compare",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/recover/",
+        "module": "reversion.admin.recoverlist_view",
+        "name": "admin:layerindex_branch_recoverlist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/recover/<var>/",
+        "module": "reversion.admin.recover_view",
+        "name": "admin:layerindex_branch_recover",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/<var>/history/admin/layerindex/branch/([/])/history/<var>/",
+        "module": "reversion.admin.revision_view",
+        "name": "admin:layerindex_branch_revision",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/",
+        "module": "reversion.admin.changelist_view",
+        "name": "admin:layerindex_branch_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/add/",
+        "module": "reversion.admin.add_view",
+        "name": "admin:layerindex_branch_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/<path:object_id>/history/",
+        "module": "reversion_compare.admin.history_view",
+        "name": "admin:layerindex_branch_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_branch_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/<path:object_id>/change/",
+        "module": "reversion.admin.change_view",
+        "name": "admin:layerindex_branch_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/branch/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/<str:object_id>/history/compare/",
+        "module": "reversion_compare.admin.compare_view",
+        "name": "admin:layerindex_ypcompatibleversion_compare",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/recover/",
+        "module": "reversion.admin.recoverlist_view",
+        "name": "admin:layerindex_ypcompatibleversion_recoverlist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/recover/<var>/",
+        "module": "reversion.admin.recover_view",
+        "name": "admin:layerindex_ypcompatibleversion_recover",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/<var>/history/admin/layerindex/ypcompatibleversion/([/])/history/<var>/",
+        "module": "reversion.admin.revision_view",
+        "name": "admin:layerindex_ypcompatibleversion_revision",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/",
+        "module": "reversion.admin.changelist_view",
+        "name": "admin:layerindex_ypcompatibleversion_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/add/",
+        "module": "reversion.admin.add_view",
+        "name": "admin:layerindex_ypcompatibleversion_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/<path:object_id>/history/",
+        "module": "reversion_compare.admin.history_view",
+        "name": "admin:layerindex_ypcompatibleversion_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_ypcompatibleversion_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/<path:object_id>/change/",
+        "module": "reversion.admin.change_view",
+        "name": "admin:layerindex_ypcompatibleversion_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/ypcompatibleversion/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/<str:object_id>/history/compare/",
+        "module": "reversion_compare.admin.compare_view",
+        "name": "admin:layerindex_layeritem_compare",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/recover/",
+        "module": "reversion.admin.recoverlist_view",
+        "name": "admin:layerindex_layeritem_recoverlist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/recover/<var>/",
+        "module": "reversion.admin.recover_view",
+        "name": "admin:layerindex_layeritem_recover",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/<var>/history/admin/layerindex/layeritem/([/])/history/<var>/",
+        "module": "reversion.admin.revision_view",
+        "name": "admin:layerindex_layeritem_revision",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/",
+        "module": "reversion.admin.changelist_view",
+        "name": "admin:layerindex_layeritem_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/add/",
+        "module": "reversion.admin.add_view",
+        "name": "admin:layerindex_layeritem_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/<path:object_id>/history/",
+        "module": "reversion_compare.admin.history_view",
+        "name": "admin:layerindex_layeritem_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_layeritem_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/<path:object_id>/change/",
+        "module": "reversion.admin.change_view",
+        "name": "admin:layerindex_layeritem_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layeritem/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/<str:object_id>/history/compare/",
+        "module": "reversion_compare.admin.compare_view",
+        "name": "admin:layerindex_layerbranch_compare",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/recover/",
+        "module": "reversion.admin.recoverlist_view",
+        "name": "admin:layerindex_layerbranch_recoverlist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/recover/<var>/",
+        "module": "reversion.admin.recover_view",
+        "name": "admin:layerindex_layerbranch_recover",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/<var>/history/admin/layerindex/layerbranch/([/])/history/<var>/",
+        "module": "reversion.admin.revision_view",
+        "name": "admin:layerindex_layerbranch_revision",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/",
+        "module": "reversion.admin.changelist_view",
+        "name": "admin:layerindex_layerbranch_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/add/",
+        "module": "reversion.admin.add_view",
+        "name": "admin:layerindex_layerbranch_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/<path:object_id>/history/",
+        "module": "reversion_compare.admin.history_view",
+        "name": "admin:layerindex_layerbranch_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_layerbranch_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/<path:object_id>/change/",
+        "module": "reversion.admin.change_view",
+        "name": "admin:layerindex_layerbranch_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerbranch/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/<str:object_id>/history/compare/",
+        "module": "reversion_compare.admin.compare_view",
+        "name": "admin:layerindex_layermaintainer_compare",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/recover/",
+        "module": "reversion.admin.recoverlist_view",
+        "name": "admin:layerindex_layermaintainer_recoverlist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/recover/<var>/",
+        "module": "reversion.admin.recover_view",
+        "name": "admin:layerindex_layermaintainer_recover",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/<var>/history/admin/layerindex/layermaintainer/([/])/history/<var>/",
+        "module": "reversion.admin.revision_view",
+        "name": "admin:layerindex_layermaintainer_revision",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/",
+        "module": "reversion.admin.changelist_view",
+        "name": "admin:layerindex_layermaintainer_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/add/",
+        "module": "reversion.admin.add_view",
+        "name": "admin:layerindex_layermaintainer_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/<path:object_id>/history/",
+        "module": "reversion_compare.admin.history_view",
+        "name": "admin:layerindex_layermaintainer_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_layermaintainer_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/<path:object_id>/change/",
+        "module": "reversion.admin.change_view",
+        "name": "admin:layerindex_layermaintainer_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layermaintainer/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/<str:object_id>/history/compare/",
+        "module": "reversion_compare.admin.compare_view",
+        "name": "admin:layerindex_layerdependency_compare",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/recover/",
+        "module": "reversion.admin.recoverlist_view",
+        "name": "admin:layerindex_layerdependency_recoverlist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/recover/<var>/",
+        "module": "reversion.admin.recover_view",
+        "name": "admin:layerindex_layerdependency_recover",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/<var>/history/admin/layerindex/layerdependency/([/])/history/<var>/",
+        "module": "reversion.admin.revision_view",
+        "name": "admin:layerindex_layerdependency_revision",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/",
+        "module": "reversion.admin.changelist_view",
+        "name": "admin:layerindex_layerdependency_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/add/",
+        "module": "reversion.admin.add_view",
+        "name": "admin:layerindex_layerdependency_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/<path:object_id>/history/",
+        "module": "reversion_compare.admin.history_view",
+        "name": "admin:layerindex_layerdependency_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_layerdependency_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/<path:object_id>/change/",
+        "module": "reversion.admin.change_view",
+        "name": "admin:layerindex_layerdependency_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerdependency/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/<str:object_id>/history/compare/",
+        "module": "reversion_compare.admin.compare_view",
+        "name": "admin:layerindex_layernote_compare",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/recover/",
+        "module": "reversion.admin.recoverlist_view",
+        "name": "admin:layerindex_layernote_recoverlist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/recover/<var>/",
+        "module": "reversion.admin.recover_view",
+        "name": "admin:layerindex_layernote_recover",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/<var>/history/admin/layerindex/layernote/([/])/history/<var>/",
+        "module": "reversion.admin.revision_view",
+        "name": "admin:layerindex_layernote_revision",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/",
+        "module": "reversion.admin.changelist_view",
+        "name": "admin:layerindex_layernote_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/add/",
+        "module": "reversion.admin.add_view",
+        "name": "admin:layerindex_layernote_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/<path:object_id>/history/",
+        "module": "reversion_compare.admin.history_view",
+        "name": "admin:layerindex_layernote_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_layernote_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/<path:object_id>/change/",
+        "module": "reversion.admin.change_view",
+        "name": "admin:layerindex_layernote_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layernote/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/update/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_update_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/update/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_update_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/update/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_update_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/update/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_update_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/update/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_update_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/update/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerupdate/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_layerupdate_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerupdate/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_layerupdate_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerupdate/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_layerupdate_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerupdate/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_layerupdate_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerupdate/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_layerupdate_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerupdate/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/packageconfig/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_packageconfig_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/packageconfig/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_packageconfig_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/packageconfig/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_packageconfig_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/packageconfig/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_packageconfig_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/packageconfig/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_packageconfig_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/packageconfig/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/staticbuilddep/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_staticbuilddep_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/staticbuilddep/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_staticbuilddep_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/staticbuilddep/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_staticbuilddep_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/staticbuilddep/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_staticbuilddep_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/staticbuilddep/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_staticbuilddep_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/staticbuilddep/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/dynamicbuilddep/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_dynamicbuilddep_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/dynamicbuilddep/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_dynamicbuilddep_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/dynamicbuilddep/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_dynamicbuilddep_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/dynamicbuilddep/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_dynamicbuilddep_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/dynamicbuilddep/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_dynamicbuilddep_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/dynamicbuilddep/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/extendedprovide/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_extendedprovide_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/extendedprovide/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_extendedprovide_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/extendedprovide/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_extendedprovide_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/extendedprovide/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_extendedprovide_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/extendedprovide/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_extendedprovide_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/extendedprovide/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/source/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_source_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/source/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_source_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/source/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_source_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/source/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_source_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/source/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_source_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/source/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipe/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_recipe_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipe/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_recipe_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipe/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_recipe_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipe/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_recipe_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipe/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_recipe_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipe/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipefiledependency/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_recipefiledependency_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipefiledependency/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_recipefiledependency_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipefiledependency/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_recipefiledependency_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipefiledependency/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_recipefiledependency_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipefiledependency/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_recipefiledependency_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipefiledependency/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/machine/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_machine_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/machine/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_machine_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/machine/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_machine_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/machine/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_machine_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/machine/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_machine_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/machine/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/distro/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_distro_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/distro/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_distro_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/distro/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_distro_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/distro/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_distro_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/distro/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_distro_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/distro/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbappend/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_bbappend_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbappend/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_bbappend_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbappend/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_bbappend_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbappend/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_bbappend_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbappend/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_bbappend_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbappend/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbclass/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_bbclass_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbclass/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_bbclass_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbclass/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_bbclass_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbclass/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_bbclass_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbclass/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_bbclass_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/bbclass/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/incfile/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_incfile_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/incfile/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_incfile_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/incfile/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_incfile_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/incfile/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_incfile_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/incfile/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_incfile_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/incfile/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patch/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_patch_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patch/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_patch_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patch/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_patch_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patch/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_patch_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patch/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_patch_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patch/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patchdisposition/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_patchdisposition_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patchdisposition/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_patchdisposition_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patchdisposition/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_patchdisposition_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patchdisposition/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_patchdisposition_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patchdisposition/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_patchdisposition_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/patchdisposition/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerrecipeextraurl/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_layerrecipeextraurl_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerrecipeextraurl/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_layerrecipeextraurl_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerrecipeextraurl/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_layerrecipeextraurl_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerrecipeextraurl/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_layerrecipeextraurl_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerrecipeextraurl/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_layerrecipeextraurl_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/layerrecipeextraurl/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipechangeset/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_recipechangeset_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipechangeset/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_recipechangeset_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipechangeset/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_recipechangeset_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipechangeset/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_recipechangeset_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipechangeset/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_recipechangeset_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/recipechangeset/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/classicrecipe/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_classicrecipe_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/classicrecipe/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_classicrecipe_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/classicrecipe/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_classicrecipe_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/classicrecipe/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_classicrecipe_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/classicrecipe/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_classicrecipe_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/classicrecipe/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/comparisonrecipeupdate/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_comparisonrecipeupdate_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/comparisonrecipeupdate/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_comparisonrecipeupdate_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/comparisonrecipeupdate/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_comparisonrecipeupdate_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/comparisonrecipeupdate/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_comparisonrecipeupdate_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/comparisonrecipeupdate/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_comparisonrecipeupdate_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/comparisonrecipeupdate/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/pythonenvironment/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_pythonenvironment_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/pythonenvironment/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_pythonenvironment_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/pythonenvironment/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_pythonenvironment_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/pythonenvironment/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_pythonenvironment_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/pythonenvironment/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_pythonenvironment_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/pythonenvironment/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/sitenotice/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_sitenotice_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/sitenotice/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_sitenotice_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/sitenotice/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_sitenotice_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/sitenotice/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_sitenotice_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/sitenotice/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_sitenotice_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/sitenotice/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestion/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_securityquestion_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestion/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_securityquestion_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestion/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_securityquestion_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestion/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_securityquestion_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestion/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_securityquestion_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestion/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestionanswer/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_securityquestionanswer_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestionanswer/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_securityquestionanswer_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestionanswer/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_securityquestionanswer_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestionanswer/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_securityquestionanswer_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestionanswer/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_securityquestionanswer_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/securityquestionanswer/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/userprofile/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:layerindex_userprofile_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/userprofile/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:layerindex_userprofile_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/userprofile/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:layerindex_userprofile_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/userprofile/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:layerindex_userprofile_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/userprofile/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:layerindex_userprofile_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/layerindex/userprofile/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessattempt/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:axes_accessattempt_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessattempt/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:axes_accessattempt_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessattempt/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:axes_accessattempt_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessattempt/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:axes_accessattempt_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessattempt/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:axes_accessattempt_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessattempt/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accesslog/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:axes_accesslog_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accesslog/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:axes_accesslog_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accesslog/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:axes_accesslog_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accesslog/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:axes_accesslog_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accesslog/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:axes_accesslog_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accesslog/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessfailurelog/",
+        "module": "django.contrib.admin.options.changelist_view",
+        "name": "admin:axes_accessfailurelog_changelist",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessfailurelog/add/",
+        "module": "django.contrib.admin.options.add_view",
+        "name": "admin:axes_accessfailurelog_add",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessfailurelog/<path:object_id>/history/",
+        "module": "django.contrib.admin.options.history_view",
+        "name": "admin:axes_accessfailurelog_history",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessfailurelog/<path:object_id>/delete/",
+        "module": "django.contrib.admin.options.delete_view",
+        "name": "admin:axes_accessfailurelog_delete",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessfailurelog/<path:object_id>/change/",
+        "module": "django.contrib.admin.options.change_view",
+        "name": "admin:axes_accessfailurelog_change",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/axes/accessfailurelog/<path:object_id>/",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/<app_label>/",
+        "module": "django.contrib.admin.sites.app_index",
+        "name": "admin:app_list",
+        "decorators": ""
+    },
+    {
+        "url": "/admin/<url>",
+        "module": "django.contrib.admin.sites.catch_all_view",
+        "name": "",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/password_reset/",
+        "module": "layerindex.auth_views.CaptchaPasswordResetView",
+        "name": "password_reset",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/register/",
+        "module": "layerindex.auth_views.CaptchaRegistrationView",
+        "name": "django_registration_register",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/delete/",
+        "module": "layerindex.auth_views.delete_account_view",
+        "name": "delete_account",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/reregister/",
+        "module": "django.views.generic.base.TemplateView",
+        "name": "reregister",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/reset/<uidb64>/<token>/",
+        "module": "layerindex.auth_views.PasswordResetSecurityQuestions",
+        "name": "password_reset_confirm",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/reset/fail/",
+        "module": "django.views.generic.base.TemplateView",
+        "name": "password_reset_fail",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/lockout/",
+        "module": "django.views.generic.base.TemplateView",
+        "name": "account_lockout",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/activate/complete/",
+        "module": "django.views.generic.base.TemplateView",
+        "name": "django_registration_activation_complete",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/activate/",
+        "module": "django_registration.backends.activation.views.ActivationView",
+        "name": "django_registration_activate",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/register/",
+        "module": "django_registration.backends.activation.views.RegistrationView",
+        "name": "django_registration_register",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/register/complete/",
+        "module": "django.views.generic.base.TemplateView",
+        "name": "django_registration_complete",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/register/closed/",
+        "module": "django.views.generic.base.TemplateView",
+        "name": "django_registration_disallowed",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/login/",
+        "module": "django.contrib.auth.views.LoginView",
+        "name": "login",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/logout/",
+        "module": "django.contrib.auth.views.LogoutView",
+        "name": "logout",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/password_change/",
+        "module": "django.contrib.auth.views.PasswordChangeView",
+        "name": "password_change",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/password_change/done/",
+        "module": "django.contrib.auth.views.PasswordChangeDoneView",
+        "name": "password_change_done",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/password_reset/",
+        "module": "django.contrib.auth.views.PasswordResetView",
+        "name": "password_reset",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/password_reset/done/",
+        "module": "django.contrib.auth.views.PasswordResetDoneView",
+        "name": "password_reset_done",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/reset/<uidb64>/<token>/",
+        "module": "django.contrib.auth.views.PasswordResetConfirmView",
+        "name": "password_reset_confirm",
+        "decorators": ""
+    },
+    {
+        "url": "/accounts/reset/done/",
+        "module": "django.contrib.auth.views.PasswordResetCompleteView",
+        "name": "password_reset_complete",
+        "decorators": ""
+    },
+    {
+        "url": "/captcha/image/<key>/",
+        "module": "captcha.views.captcha_image",
+        "name": "captcha-image",
+        "decorators": ""
+    },
+    {
+        "url": "/captcha/image/<key>@2/",
+        "module": "captcha.views.captcha_image",
+        "name": "captcha-image-2x",
+        "decorators": ""
+    },
+    {
+        "url": "/captcha/audio/<key>.wav",
+        "module": "captcha.views.captcha_audio",
+        "name": "captcha-audio",
+        "decorators": ""
+    },
+    {
+        "url": "/captcha/refresh/",
+        "module": "captcha.views.captcha_refresh",
+        "name": "captcha-refresh",
+        "decorators": ""
+    },
+    {
+        "url": "/rrs/",
+        "module": "rrs.views.FrontPageRedirect",
+        "name": "rrs_frontpage",
+        "decorators": ""
+    },
+    {
+        "url": "/rrs/maintplan/<maintplan_name>/",
+        "module": "rrs.views.MaintenancePlanRedirect",
+        "name": "rrs_maintplan",
+        "decorators": ""
+    },
+    {
+        "url": "/rrs/recipes/<maintplan_name>/<release_name>/<milestone_name>/",
+        "module": "rrs.views.RecipeListView",
+        "name": "rrs_recipes",
+        "decorators": ""
+    },
+    {
+        "url": "/rrs/recipesreport/<maintplan_name>/<release_name>/<milestone_name>/",
+        "module": "rrs.views.recipes_report",
+        "name": "rrs_recipesreport",
+        "decorators": ""
+    },
+    {
+        "url": "/rrs/recipedetail/<maintplan_name>/<pk>/",
+        "module": "rrs.views.RecipeDetailView",
+        "name": "rrs_recipedetail",
+        "decorators": ""
+    },
+    {
+        "url": "/rrs/maintainers/<maintplan_name>/<release_name>/<milestone_name>/",
+        "module": "rrs.views.MaintainerListView",
+        "name": "rrs_maintainers",
+        "decorators": ""
+    },
+    {
+        "url": "/rrs/stats/<maintplan_name>/<release_name>/<milestone_name>/",
+        "module": "rrs.views.MaintenanceStatsView",
+        "name": "rrs_stats",
+        "decorators": ""
+    },
+    {
+        "url": "/.",
+        "module": "django.views.generic.base.RedirectView",
+        "name": "",
+        "decorators": ""
+    }
+]
